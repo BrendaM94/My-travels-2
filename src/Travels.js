@@ -47,7 +47,7 @@ const array =[{
 
 const Travels = () => (  //prop esel 1er argumento de una funcion 
     <div>
-      <h2>Travels.js </h2>
+      <h2>Place</h2>
       {array.map(item => (
       <Travel 
         destination = {item.destination}
